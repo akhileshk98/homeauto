@@ -9,7 +9,7 @@ void loop()
     char ch = Serial.read();
     if(ch=='A')
     {
-      digitalWrite(1,HIGH);
+      digitalWrite(1,LOW);
     }
   }
 }
